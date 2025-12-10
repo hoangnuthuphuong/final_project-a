@@ -9,15 +9,6 @@
 - **EfficientNetB0** – Phân loại nhị phân (Binary Classification) bằng học chuyển giao.  
 - **YOLOv8-seg & YOLOv11-seg** – Phát hiện và phân đoạn đối tượng (Instance Segmentation).
 
-## 📊 Tóm tắt kết quả
-
-- **Autoencoder** sử dụng chỉ số Youden’s J để thiết lập ngưỡng phát hiện lỗi, nhưng hiệu suất còn hạn chế do không huấn luyện trên dữ liệu lỗi.
-- **EfficientNetB0** đạt độ nhạy cao với lớp OK, nhưng gặp vấn đề nghiêm trọng với dương tính giả (False Positive).
-- **YOLOv8-seg** cho kết quả vượt trội nhất, đạt độ chính xác 99.8% (OK) và 79.0% (NG).
-- **YOLOv11-seg** tích hợp cơ chế chú ý không gian nâng cao (Spatial Attention Mechanisms) nhưng chưa đạt kỳ vọng.
-
-Đề tài đã chứng minh tính khả thi của việc ứng dụng học sâu trong kiểm tra lon rỗng. Tuy nhiên, để đạt độ chính xác tối ưu cho lon không đạt chuẩn NG và đảm bảo tính ứng dụng trong công nghiệp, cần tăng cường dữ liệu, kết hợp nhiều phương pháp, và thử nghiệm thực tế. Đây sẽ là nền tảng quan trọng để phát triển hệ thống kiểm tra chất lượng lon rỗng tự động, góp phần nâng cao hiệu quả và độ tin cậy của dây chuyền sản xuất bia trong bối cảnh Cách mạng Công nghiệp 4.0.
-
 ## 📁 Cấu trúc thư mục
 
 - `CanDetect_Autoencoder.ipynb` – Mô hình phát hiện bất thường bằng Autoencoder.
@@ -31,6 +22,16 @@
 
 Toàn bộ dữ liệu, báo cáo, hình ảnh minh họa và tài liệu liên quan có thể được truy cập tại:  
 🔗 [Google Drive – Tài liệu đồ án](https://drive.google.com/drive/folders/1FXucC5tWVD3q2fWsqD-H8lGPZJW2VJbF?usp=sharing)
+
+
+## 📊 Tóm tắt kết quả
+
+- **Autoencoder** sử dụng chỉ số Youden’s J để thiết lập ngưỡng phát hiện lỗi, nhưng hiệu suất còn hạn chế do không huấn luyện trên dữ liệu lỗi.
+- **EfficientNetB0** đạt độ nhạy cao với lớp OK, nhưng gặp vấn đề nghiêm trọng với dương tính giả (False Positive).
+- **YOLOv8-seg** cho kết quả vượt trội nhất, đạt độ chính xác 99.8% (OK) và 79.0% (NG).
+- **YOLOv11-seg** tích hợp cơ chế chú ý không gian nâng cao (Spatial Attention Mechanisms) nhưng chưa đạt kỳ vọng.
+
+Đề tài đã chứng minh tính khả thi của việc ứng dụng học sâu trong kiểm tra lon rỗng. Tuy nhiên, để đạt độ chính xác tối ưu cho lon không đạt chuẩn NG và đảm bảo tính ứng dụng trong công nghiệp, cần tăng cường dữ liệu, kết hợp nhiều phương pháp, và thử nghiệm thực tế. Đây sẽ là nền tảng quan trọng để phát triển hệ thống kiểm tra chất lượng lon rỗng tự động, góp phần nâng cao hiệu quả và độ tin cậy của dây chuyền sản xuất bia trong bối cảnh Cách mạng Công nghiệp 4.0.
 
 ## 👩‍💻 Tác giả
 
