@@ -1,4 +1,5 @@
-# ỨNG DỤNG THỊ GIÁC MÁY TÍNH VÀ HỌC SÂU VÀO KIỂM TRA CHẤT LƯỢNG LON RỖNG TRONG DÂY CHUYỀN CÔNG NGHIỆP
+# ĐỒ ÁN TỐT NGHIỆP
+Tên đề tài: "ỨNG DỤNG THỊ GIÁC MÁY TÍNH VÀ HỌC SÂU VÀO KIỂM TRA CHẤT LƯỢNG LON RỖNG TRONG DÂY CHUYỀN CÔNG NGHIỆP"
 
 ## 📌 Mô tả đề tài
 
@@ -15,7 +16,7 @@
 - **YOLOv8-seg** cho kết quả vượt trội nhất, đạt độ chính xác 99.8% (OK) và 79.0% (NG).
 - **YOLOv11-seg** tích hợp cơ chế chú ý không gian nâng cao (Spatial Attention Mechanisms) nhưng chưa đạt kỳ vọng.
 
-Khóa luận kết luận rằng **YOLOv8-seg** là giải pháp tiềm năng cho việc định vị lỗi, tuy nhiên cần tối ưu thêm để cân bằng giữa Precision và Recall, hoặc kết hợp đa mô hình để xây dựng hệ thống kiểm tra đa tầng.
+Đề tài đã chứng minh tính khả thi của việc ứng dụng học sâu trong kiểm tra lon rỗng. Tuy nhiên, để đạt độ chính xác tối ưu cho lon không đạt chuẩn NG và đảm bảo tính ứng dụng trong công nghiệp, cần tăng cường dữ liệu, kết hợp nhiều phương pháp, và thử nghiệm thực tế. Đây sẽ là nền tảng quan trọng để phát triển hệ thống kiểm tra chất lượng lon rỗng tự động, góp phần nâng cao hiệu quả và độ tin cậy của dây chuyền sản xuất bia trong bối cảnh Cách mạng Công nghiệp 4.0.
 
 ## 📁 Cấu trúc thư mục
 
@@ -36,6 +37,6 @@ Toàn bộ dữ liệu, báo cáo, hình ảnh minh họa và tài liệu liên 
 **Hoàng Nữ Thu Phương**  
 Mã số sinh viên: 21E1010003  
 Ngành: Khoa học dữ liệu và trí tuệ nhân tạo 
-Khoa Kỹ thuật và công nghệ - Dại học Huế
+Khoa Kỹ thuật và công nghệ - Đại học Huế
 
 ---
