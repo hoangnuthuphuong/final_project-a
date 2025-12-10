@@ -1,5 +1,5 @@
 # ĐỒ ÁN TỐT NGHIỆP
-Tên đề tài: "ỨNG DỤNG THỊ GIÁC MÁY TÍNH VÀ HỌC SÂU VÀO KIỂM TRA CHẤT LƯỢNG LON RỖNG TRONG DÂY CHUYỀN CÔNG NGHIỆP"
+**Tên đề tài:** "ỨNG DỤNG THỊ GIÁC MÁY TÍNH VÀ HỌC SÂU VÀO KIỂM TRA CHẤT LƯỢNG LON RỖNG TRONG DÂY CHUYỀN CÔNG NGHIỆP"
 
 ## 📌 Mô tả đề tài
 
